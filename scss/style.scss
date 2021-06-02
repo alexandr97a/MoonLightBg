@@ -81,14 +81,24 @@ section{
      #mountains_front{
          z-index: 10;
      }
-     #text{
+     #text1{
          position: absolute;
-         right: -350px;
+        //  right: 350px;
          color: #fff;
          white-space: nowrap;
-         font-size: 6.5vw;
+         font-size: 6vw;
          z-index: 9;
+         transform: translate(-120px,-100px);
      }
+     #text2{
+        position: absolute;
+       //  right: 350px;
+        color: #fff;
+        white-space: nowrap;
+        font-size: 6vw;
+        z-index: 9;
+        transform: translate(120px,-100px);
+    }
      #btn{
          text-decoration: none;
          padding: 8px 30px;
